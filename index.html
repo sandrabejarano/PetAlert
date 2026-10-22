@@ -9,8 +9,8 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%90%BE%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Josefin+Sans:wght@400;600;700&display=swap" rel="stylesheet">  <script type="module" crossorigin src="./assets/index-Uyoqf41D.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-BxwBRCIp.css">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Josefin+Sans:wght@400;600;700&display=swap" rel="stylesheet">  <script type="module" crossorigin src="./assets/index-BHx8Oty9.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-D1aWjhvo.css">
 </head>
 
 <body>
@@ -41,7 +41,7 @@
       <button id="navNext" class="tl-btn next" aria-label="Ir al siguiente paso" hidden><span>Siguiente</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
     </div>
     <p id="tlHint">Adelanta, regresa o toca una etapa para ir a ese punto</p>
-  </div>  <div id="audioBtns"><button id="musicBtn" class="iconbtn" aria-label="Activar o silenciar la música" aria-pressed="true"></button></div>
+  </div>  <div id="audioBtns"><a id="debugBtn" class="iconbtn" hidden href="./debug-perro.html" target="_blank" rel="noopener" title="Depuración del perro (solo en desarrollo)" aria-label="Abrir la depuración del perro"><svg viewBox="0 0 24 24"><circle cx="7" cy="10" r="2"/><circle cx="17" cy="10" r="2"/><circle cx="10.5" cy="5.5" r="2"/><circle cx="13.5" cy="5.5" r="2"/><path d="M12 12c-3 0-6 3-6 6 0 2 2 2 3 1.5s2-.7 3-.7 2 .2 3 .7 3 .5 3-1.5c0-3-3-6-6-6z"/></svg></a><a id="debugCatBtn" class="iconbtn" hidden href="./debug-gato.html" target="_blank" rel="noopener" title="Depuración del gato (solo en desarrollo)" aria-label="Abrir la depuración del gato"><svg viewBox="0 0 24 24"><path d="M5 4l3.5 3h7L19 4v9a7 7 0 0 1-14 0z"/><path d="M9.5 12v.5M14.5 12v.5M10.5 15.5c.5.6 1 .8 1.5.8s1-.2 1.5-.8"/></svg></a><a id="debugUserBtn" class="iconbtn" hidden href="./debug-usuario.html" target="_blank" rel="noopener" title="Depuración del personaje (solo en desarrollo)" aria-label="Abrir la depuración del personaje"><svg viewBox="0 0 24 24"><circle cx="12" cy="6.5" r="3"/><path d="M6 20v-5a6 6 0 0 1 12 0v5M9 20v-3M15 20v-3"/></svg></a><button id="musicBtn" class="iconbtn" aria-label="Activar o silenciar la música" aria-pressed="true"></button></div>
 </header>
 
 <div id="objective" hidden aria-live="polite"><span class="pulse"></span><div><strong></strong><small></small></div></div>
@@ -69,7 +69,7 @@
 <aside id="panel" class="card" hidden></aside>
 <aside id="tip" class="card" hidden></aside>
 <div id="timer" hidden aria-live="off"><span>Tiempo</span><b>20</b><i><u></u></i></div>
-<div id="prompt" hidden><button class="btn"><kbd>E</kbd><span></span></button></div>
+<div id="prompt" hidden><button class="btn"><kbd hidden>E</kbd><span></span></button></div>
 <div id="hint" hidden></div>
 <div id="moveHint" hidden aria-hidden="true"></div>
 
